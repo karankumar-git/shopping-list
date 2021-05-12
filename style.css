@@ -1,0 +1,85 @@
+html{
+    font-size: 20px;
+    background-color: rgb(88, 86, 86);
+    color: whitesmoke;
+}
+body{
+    margin: 0 ;
+    font-size: 16px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    animation-duration: all 1s;
+    font-size: 3rem;
+    text-align: center;
+    background-color: black;
+    margin: 0px 0px;
+}
+.container,.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 2rem;
+}
+input{
+    margin-right: 1rem;
+    width: 30%;
+    min-width: 30;
+    max-width: 300px;
+    height: 4vh;
+    border-radius: 1rem;
+    background-color: black;
+    color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+input::placeholder{
+    font-size: 0.7rem;
+    color:rgb(88, 86, 86);
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: larger;
+}
+button{
+    width: 10%;
+    height: 5vh;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px whitesmoke;
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px 3px;
+}
+button:hover{
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    background-color: whitesmoke;
+}
+.list{
+    position: absolute;
+    right: 55%;
+    font-size: 1rem;
+}
+img{
+    width: 10px;
+    height: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@media only screen and (max-width: 480px){
+    input{
+        width: 50%;
+        height: 10vh;
+        font-size: larger;
+    }
+    input::placeholder{
+        font-size: larger;
+    }
+    button{
+        width: 20%;
+        height: 10vh;
+        font-size: larger;
+    }
+    
+    
+}
